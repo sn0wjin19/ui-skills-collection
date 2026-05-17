@@ -1,0 +1,20 @@
+{
+  "name": "jjinok-local-ui-skills",
+  "interface": {
+    "displayName": "JJinok Local UI Skills"
+  },
+  "plugins": [
+    {
+      "name": "ui-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ui-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}
