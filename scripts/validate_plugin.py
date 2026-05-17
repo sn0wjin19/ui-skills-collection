@@ -53,11 +53,9 @@ def main() -> None:
 
     assert_file(PLUGIN / "skills" / "ui-craft" / "SKILL.md")
     assert_file(PLUGIN / "skills" / "ui-audit" / "SKILL.md")
-    assert_file(PLUGIN / "skills" / "ui-craft" / "scripts" / "search.py")
-    assert_dir(PLUGIN / "skills" / "ui-craft" / "data" / "stacks")
+    assert_file(PLUGIN / "docs" / "anthropic-official-patterns.md")
     assert_file(PLUGIN / "docs" / "source-review.md")
     assert_file(PLUGIN / "docs" / "third-party-notices.md")
-    assert_file(PLUGIN / "docs" / "LICENSE.ui-ux-pro-max")
 
     print("ui-skills plugin validation passed")
 

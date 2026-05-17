@@ -2,8 +2,6 @@
 name: ui-craft
 description: Use when designing, building, redesigning, refining, or polishing frontend UI. Covers brand pages, product surfaces, dashboards, components, forms, responsive behavior, accessibility, motion, design systems, visual hierarchy, typography, color, spacing, and implementation-quality checks.
 license: MIT
-allowed-tools:
-  - Bash(python scripts/search.py *)
 ---
 
 # UI Craft
@@ -11,12 +9,13 @@ allowed-tools:
 Design and implement frontend interfaces with product sense, visual taste, and verification. This skill combines:
 
 - Impeccable as the taste and register spine.
-- UI/UX Pro Max as the searchable reference database.
+- Anthropic's official `frontend-design` skill as the compact creative directive: pick a bold, context-specific aesthetic and execute it fully.
 - User Interface Wiki as the interaction, motion, typography, and UX-law audit base.
 - Make Interfaces Feel Better as the detail-polish checklist.
-- ui-skills as hard accessibility, metadata, and motion-performance guardrails.
 - Designer Skills as design-system vocabulary.
-- Taste and 0xdesign as selective anti-template and multi-variant inspiration.
+- 0xdesign as selective multi-variant exploration inspiration.
+
+The plugin intentionally no longer depends on UI/UX Pro Max, Taste, or ui-skills. Those sources were useful for comparison, but the combined guidance is sharper without their searchable database, randomization requirements, and overlapping hard bans.
 
 ## First Pass
 
@@ -34,22 +33,17 @@ Before proposing or editing UI:
 4. Define success in verifiable terms:
    - Example: "No horizontal scroll at 320px, all controls keyboard reachable, primary action visible, no layout-shifting hover states."
 
-## Searchable References
+## Creative Direction
 
-This skill vendors the UI/UX Pro Max search database.
+Before coding, commit to one clear direction:
 
-Run commands from this skill directory:
+- Purpose: what job does this page or component do, and who is using it?
+- Scene: where, when, and under what pressure is the user encountering it?
+- Register: product UI or brand UI?
+- Aesthetic lane: restrained operating system, editorial artifact, industrial console, tactile retail, cinematic campaign, playful utility, calm institutional, or another concrete lane.
+- Memory: what is the one thing someone should remember after seeing it?
 
-```bash
-python scripts/search.py "saas dashboard" --domain product
-python scripts/search.py "professional restrained" --domain style
-python scripts/search.py "analytics" --domain chart
-python scripts/search.py "accessibility motion loading" --domain ux
-python scripts/search.py "react responsive" --stack react
-python scripts/search.py "fintech dashboard" --design-system -p "Project Name"
-```
-
-Use search to gather context, then synthesize. Do not blindly follow a search result if it conflicts with the existing project, user brief, accessibility, or performance.
+Boldness is not mandatory. Commitment is. Maximalism needs elaborate code and strong art direction; minimalism needs exact spacing, typography, and restraint.
 
 ## Core Workflow
 

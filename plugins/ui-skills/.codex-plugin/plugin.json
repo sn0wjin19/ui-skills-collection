@@ -1,7 +1,7 @@
 {
   "name": "ui-skills",
   "version": "0.1.0",
-  "description": "A Codex UI craft plugin combining design direction, searchable UI references, accessibility, motion performance, and polish rules.",
+  "description": "A Codex UI craft plugin combining design direction, official skill patterns, accessibility, motion judgment, and polish rules.",
   "author": {
     "name": "JJinok"
   },
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "UI Skills",
     "shortDescription": "Design, build, review, and polish frontend UI with strong taste and hard checks.",
-    "longDescription": "Combines the best parts of several UI skill families into a Codex-ready plugin: Impeccable-style product/brand register, UI/UX Pro Max searchable references, User Interface Wiki heuristics, make-interfaces-feel-better detail polish, ui-skills accessibility and motion guardrails, and selective anti-template guidance from Taste and 0xdesign.",
+    "longDescription": "Combines a focused set of UI skill ideas into a Codex-ready plugin: Impeccable-style product/brand register, Anthropic official frontend-design patterns, User Interface Wiki heuristics, make-interfaces-feel-better detail polish, and Designer Skills design-system vocabulary. The earlier UI/UX Pro Max, Taste, and ui-skills dependencies were removed to keep the guidance sharper and less prescriptive.",
     "developerName": "JJinok",
     "category": "Design",
     "capabilities": [

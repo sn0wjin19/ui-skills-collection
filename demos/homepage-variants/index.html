@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UI Skills Homepage Variants</title>
+    <meta
+      name="description"
+      content="Three homepage directions for the revised UI Skills Codex plugin."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="switcher" aria-label="首页风格切换">
+      <a class="brand-mark" href="#product">
+        <span class="brand-glyph" aria-hidden="true">UI</span>
+        <span>UI Skills</span>
+      </a>
+      <nav class="variant-tabs" aria-label="三版首页">
+        <a href="#product" data-variant-link="product">产品操作台</a>
+        <a href="#editorial" data-variant-link="editorial">编辑品牌页</a>
+        <a href="#cinematic" data-variant-link="cinematic">沉浸工作室</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="variant variant-product" id="product" data-variant="product">
+        <div class="product-shell">
+          <nav class="product-rail" aria-label="产品页导航">
+            <span class="rail-logo">US</span>
+            <span class="rail-dot rail-dot-active"></span>
+            <span class="rail-dot"></span>
+            <span class="rail-dot"></span>
+          </nav>
+          <div class="product-main">
+            <div class="product-copy">
+              <p class="kicker">Product register</p>
+              <h1>把 UI 判断变成每次都能执行的工作流。</h1>
+              <p>
+                一个给 Codex 用的前端设计插件：先判断产品还是品牌，再落到可验证的层级、状态、可访问性和细节手感。
+              </p>
+              <div class="action-row">
+                <a class="button button-dark" href="#editorial">看下一版</a>
+                <a class="button button-light" href="../../plugins/ui-skills/docs/source-review.md">查看来源取舍</a>
+              </div>
+            </div>
+            <div class="console-board" aria-label="UI 审核面板示意">
+              <div class="board-topline">
+                <span>Audit queue</span>
+                <strong>92</strong>
+              </div>
+              <div class="metric-grid">
+                <div>
+                  <span>Focus states</span>
+                  <strong>18</strong>
+                </div>
+                <div>
+                  <span>Layout risks</span>
+                  <strong>7</strong>
+                </div>
+                <div>
+                  <span>Motion checks</span>
+                  <strong>13</strong>
+                </div>
+              </div>
+              <div class="review-list">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="variant variant-editorial" id="editorial" data-variant="editorial">
+        <div class="editorial-grid">
+          <aside class="edition-note">
+            <span>Edition 02</span>
+            <p>官方 skill 范式保留为结构和方向，不当作审美模板。</p>
+          </aside>
+          <div class="editorial-copy">
+            <p class="kicker">Brand register</p>
+            <h1>少一点素材库，多一点判断力。</h1>
+            <p>
+              这版首页把插件当成一本设计手册：删掉容易把结果拉回平均值的规则，保留能逼迫界面形成观点的步骤。
+            </p>
+            <a class="editorial-link" href="#cinematic">进入第三版</a>
+          </div>
+          <figure class="specimen" aria-label="设计规则样张">
+            <div class="specimen-band"></div>
+            <figcaption>
+              <span>Register</span>
+              <span>Scene</span>
+              <span>Memory</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="variant variant-cinematic" id="cinematic" data-variant="cinematic">
+        <div class="cinematic-stage">
+          <div class="stage-copy">
+            <p class="kicker">Experimental homepage</p>
+            <h1>让首页先有一个会被记住的动作。</h1>
+            <p>
+              这版更像设计工作室：大面积视觉、明确节奏、少量文字。适合展示插件的“方向选择”能力，而不是罗列功能。
+            </p>
+            <div class="action-row">
+              <a class="button button-cream" href="#product">回到第一版</a>
+              <a class="button button-outline" href="../../plugins/ui-skills/skills/ui-craft/SKILL.md">打开 skill</a>
+            </div>
+          </div>
+          <div class="motion-board" aria-label="设计方向动态图形示意">
+            <span class="motion-line line-one"></span>
+            <span class="motion-line line-two"></span>
+            <span class="motion-line line-three"></span>
+            <span class="motion-node node-one"></span>
+            <span class="motion-node node-two"></span>
+            <span class="motion-node node-three"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
