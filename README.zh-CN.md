@@ -12,6 +12,7 @@
 .agents/plugins/marketplace.json
 plugins/ui-skills/.codex-plugin/plugin.json
 plugins/ui-skills/skills/ui-craft/SKILL.md
+plugins/ui-skills/skills/ui-craft/references/design-examples/
 plugins/ui-skills/skills/ui-audit/SKILL.md
 plugins/ui-skills/docs/
 demos/homepage-variants/
@@ -23,6 +24,13 @@ scripts/validate_plugin.py
 
 - `ui-craft`：设计、构建、重构、细化和打磨 UI。
 - `ui-audit`：审查现有 UI，并输出可执行的问题清单。
+
+## 设计例子库
+
+插件现在多了一个具体例子库：[plugins/ui-skills/skills/ui-craft/references/design-examples](plugins/ui-skills/skills/ui-craft/references/design-examples)。
+
+- `anthropic/`：单独保存 Anthropic 里和设计相关的 skill 参考与主题配方。
+- `synthesis/`：从其他高质量 UI skills 里综合出的字体搭配、字号层级、页面布局、网格和组件排版配方。
 
 ## 当前设计思想
 

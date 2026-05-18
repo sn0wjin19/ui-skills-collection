@@ -10,6 +10,7 @@ Design and implement frontend interfaces with product sense, visual taste, and v
 
 - Impeccable as the taste and register spine.
 - Anthropic's official `frontend-design` skill as the compact creative directive: pick a bold, context-specific aesthetic and execute it fully.
+- Anthropic design examples under `references/design-examples/anthropic/` for concrete theme, typography, and art-direction starting points.
 - User Interface Wiki as the interaction, motion, typography, and UX-law audit base.
 - Make Interfaces Feel Better as the detail-polish checklist.
 - Designer Skills as design-system vocabulary.
@@ -65,6 +66,17 @@ Boldness is not mandatory. Commitment is. Maximalism needs elaborate code and st
    - Run the project checks available.
    - For visible UI work, inspect in a browser across mobile and desktop.
    - Verify no overlap, no horizontal scroll, no broken media, no inaccessible controls.
+
+## Reference Library
+
+Keep `SKILL.md` lean. Load detailed examples only when the request needs them:
+
+- For concrete fonts, type scales, spacing, grids, and CSS snippets, read `references/design-examples/synthesis/typography-layout-recipes.md`.
+- For homepage, dashboard, editor, editorial, or variant-board structures, read `references/design-examples/synthesis/page-layout-recipes.md`.
+- For buttons, cards, forms, metrics, tables, navigation, loading, empty, and error states, read `references/design-examples/synthesis/component-composition-recipes.md`.
+- For Anthropic's original frontend-design direction prompt and theme examples, read `references/design-examples/anthropic/index.md`, then the specific file it points to.
+
+If starting from a blank page or if the user asks for "examples", "fonts", "layout", "homepage style", or "make it more complete", read the relevant reference before coding. If editing an existing product with a mature design system, prefer local tokens and components, then use these references only to fill gaps.
 
 ## Register Rules
 

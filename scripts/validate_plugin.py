@@ -53,6 +53,20 @@ def main() -> None:
 
     assert_file(PLUGIN / "skills" / "ui-craft" / "SKILL.md")
     assert_file(PLUGIN / "skills" / "ui-audit" / "SKILL.md")
+    examples = PLUGIN / "skills" / "ui-craft" / "references" / "design-examples"
+    assert_file(examples / "anthropic" / "index.md")
+    assert_file(examples / "anthropic" / "frontend-design.original.md")
+    assert_file(examples / "anthropic" / "theme-factory.original.md")
+    assert_file(examples / "anthropic" / "brand-guidelines.original.md")
+    assert_file(examples / "anthropic" / "canvas-design-philosophy.original.md")
+    assert_file(examples / "anthropic" / "LICENSE.frontend-design.txt")
+    assert_file(examples / "anthropic" / "LICENSE.theme-factory.txt")
+    assert_dir(examples / "anthropic" / "themes")
+    if len(list((examples / "anthropic" / "themes").glob("*.md"))) < 10:
+        raise AssertionError("expected Anthropic theme examples")
+    assert_file(examples / "synthesis" / "typography-layout-recipes.md")
+    assert_file(examples / "synthesis" / "page-layout-recipes.md")
+    assert_file(examples / "synthesis" / "component-composition-recipes.md")
     assert_file(PLUGIN / "docs" / "anthropic-official-patterns.md")
     assert_file(PLUGIN / "docs" / "source-review.md")
     assert_file(PLUGIN / "docs" / "third-party-notices.md")

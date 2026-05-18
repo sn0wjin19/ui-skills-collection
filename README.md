@@ -12,6 +12,7 @@ This repository is intentionally not a giant bundle of every UI prompt or skill.
 .agents/plugins/marketplace.json
 plugins/ui-skills/.codex-plugin/plugin.json
 plugins/ui-skills/skills/ui-craft/SKILL.md
+plugins/ui-skills/skills/ui-craft/references/design-examples/
 plugins/ui-skills/skills/ui-audit/SKILL.md
 plugins/ui-skills/docs/
 demos/homepage-variants/
@@ -23,6 +24,13 @@ scripts/validate_plugin.py
 
 - `ui-craft`: design, build, redesign, refine, and polish UI.
 - `ui-audit`: review existing UI and report actionable findings.
+
+## Design Examples
+
+The plugin now includes a concrete example library under [plugins/ui-skills/skills/ui-craft/references/design-examples](plugins/ui-skills/skills/ui-craft/references/design-examples).
+
+- `anthropic/`: vendored Anthropic design-oriented skill references and theme recipes.
+- `synthesis/`: typography scales, font pairing directions, page layouts, grids, and component composition recipes synthesized from the stronger UI skill sources.
 
 ## Current Design Philosophy
 

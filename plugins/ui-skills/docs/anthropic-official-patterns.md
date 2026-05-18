@@ -24,3 +24,5 @@
 2. Name the memorable idea.
 3. Match implementation complexity to that idea.
 4. Build working UI, not a moodboard.
+
+Concrete Anthropic references now live inside the skill at `skills/ui-craft/references/design-examples/anthropic/`. Keep them as optional examples, not always-loaded rules.
